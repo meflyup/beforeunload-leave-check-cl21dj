@@ -1,0 +1,8 @@
+<p></p>
+
+<a *ngFor="let link of links" [routerLink]="link.path">{{ link.path }}</a>
+<a routerLink="/hello">first page</a>
+<br />
+<a routerLink="/world">second page</a>
+
+<router-outlet></router-outlet>
